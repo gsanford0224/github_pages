@@ -1,0 +1,18 @@
+.header {
+    display: flex;
+    justify-content: center;
+    background: #333;
+    padding: 10px 0;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  li {
+    color: white;
+    cursor: pointer;
+  }
+  

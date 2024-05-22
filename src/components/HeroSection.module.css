@@ -1,0 +1,21 @@
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: url('../images/computer_background.png') no-repeat center center;
+    background-size: cover;
+    height: 100vh; /* Adjust height as needed */
+  }
+  
+  .textBlock {
+    width: 50%;
+    text-align: center;
+    padding: 20px;
+    background-color: transparent; /* Ensures no background for the text */
+  }
+  
+  button {
+    margin-top: 20px;
+  }
+  
+  
