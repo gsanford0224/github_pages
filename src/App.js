@@ -2,7 +2,7 @@ import React from 'react';
 import { Route, Routes, BrowserRouter as Router } from 'react-router-dom';
 import Topbar from './components/Topbar';
 import Home from './components/Home';
-import Projects from './components/Projects';
+import MSDemo from './components/MSDemo';
 import Skills from './components/Skills';
 import AboutMe from './components/AboutMe';
 import Resume from './components/Resume';
