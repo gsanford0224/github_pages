@@ -1,14 +1,24 @@
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  background-color: black;
-  padding: .5rem 2rem;
+  width: 100%;
+  padding: 1rem;
 }
 
 .navbar-brand {
   font-size: 1.5rem;
   color: white;
+  margin-right: auto;
+}
+
+.navbar-toggle {
+  display: none;
+  font-size: 1.5rem;
+  color: white;
+  background: none;
+  border: none;
+  cursor: pointer;
 }
 
 .navbar-links {
@@ -20,4 +30,30 @@
 .navbar-links a {
   color: white;
   text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .navbar-toggle {
+    display: block;
+  }
+
+  .navbar-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: 30px;
+    left: 0;
+  }
+
+  .navbar-links.open {
+    display: flex;
+  }
+
+  .navbar-links a {
+    padding: 1rem;
+    text-align: center;
+    width: 100%;
+  }
 }
